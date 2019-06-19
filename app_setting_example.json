@@ -1,0 +1,18 @@
+{
+  "insight_from_begin": false,
+  "instrumentation_key": "instrumentation_key from azure application insight",
+  "node_setting": {
+    "node_url": "https://xxxxxxxx.sesam.yyy/api",
+    "node_token": "sesam_node_jwt_token",
+    "timeout": 120,
+    "verify_ssl": true
+  },
+  "monitoring_list": {
+    "url": "https://raw.githubusercontent.com/hafslundnett/sesam-master-node-config/master/node/deployment/whitelist-master.txt",
+    "user": "github application user",
+    "password": "token for the application user",
+    "pipe_starts_with": ["ifs", "cab"],
+    "pipe_ends_with": ["endpoint"]
+  },
+  "interval": 5
+}
