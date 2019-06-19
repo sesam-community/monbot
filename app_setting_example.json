@@ -8,7 +8,7 @@
     "verify_ssl": true
   },
   "monitoring_list": {
-    "url": "https://raw.githubusercontent.com/hafslundnett/sesam-master-node-config/master/node/deployment/whitelist-master.txt",
+    "url": "https://raw.githubusercontent.com/organization/repository/branchname/path/minotoring-list.txt",
     "user": "github application user",
     "password": "token for the application user",
     "pipe_starts_with": ["ifs", "cab"],
